@@ -6,7 +6,7 @@ formulario.addEventListener('submit', async(e) => {
     e.preventDefault();
 // Escribir Filas
     try {
-        const respuesta = await fetch('https://script.google.com/macros/s/AKfycbzlwg5d4cbjdzi260nxb80tOQsgJUyNlbX3qdtRLdbAD2WCP1m5CUsr6Ee39BI0QXPsPg/exec'{
+        const respuesta = await fetch('https://script.google.com/macros/s/AKfycbx62tt3tZ3L35IJrxybm9Ke3iSNXAHnBwgN9W8EA_qeaJeloGI4Sn5jAiChA2LxBeUdUQ/exec' {
             method: 'POST',
             mode: 'cors',
             headers: {
